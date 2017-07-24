@@ -8,7 +8,7 @@ var cfOptions = {
 };
 
 function displaystuff(data) {
-  console.log(data);
+  $('body').html($('<div class="" style="position: absolute; width: 200px; height: 100pxp; top: 0;"></div>'));
  }
 $.getJSON(cflAPI, cfOptions, displaystuff);
 
